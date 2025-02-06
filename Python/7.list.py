@@ -41,9 +41,37 @@ print(2 in marks)  # Output: True
 for i in marks[2:4]:  # Iterate over the list
     print(i)
 
-for i in range(3):
-    for j in range(2):
-        print(f"i={i}, j={j}")
+# Nested for loop to print combinations of i and j
+for i in range(3):  # Outer loop from 0 to 2
+    for j in range(2):  # Inner loop from 0 to 1
+        print(f"i={i}, j={j}")  # Prints the values of i and j for each combination
 
-for i in range(len(marks)):
-    print(f"i={i},[{i}]={marks[i]}")
+# Loop through the 'marks' list by index and print each index and corresponding value
+marks = [80, 90, 85, 70]
+for i in range(len(marks)):  # Loop over the length of the marks list
+    print(f"i={i}, [{i}]={marks[i]}")  # Prints the index and value at that index
+
+# Iterate through the 'students' list and break when "Fahim" is encountered
+students = ["Alvi", "Shefa", "Fahim", "Okita"]
+for i in range(len(students)):  # Loop over the students list by index
+    if students[i] == "Fahim":  # If the student is "Fahim"
+        break  # Exit the loop immediately when "Fahim" is found
+    print(f"The students are {students[i]}")  # Print the student's name before "Fahim"
+
+# Iterate through the 'students' list and skip "Fahim" using continue
+students = ["Alvi", "Shefa", "Fahim", "Okita"]
+for i in range(len(students)):  # Loop over the students list by index
+    if students[i] == "Fahim":  # If the student is "Fahim"
+        continue  # Skip this iteration and move to the next student
+    print(f"The students are {students[i]}")  # Print the student's name excluding "Fahim"
+
+# Create a new list 'new_student' by excluding "Fahim"
+new_student = []  # Initialize an empty list to store students without "Fahim"
+for i in range(len(students)):  # Loop over the students list by index
+    if students[i] == "Fahim":  # If the student is "Fahim"
+        continue  # Skip "Fahim" and do not add them to the new list
+    new_student.append(students[i])  # Add other students to the new list
+
+# Print the 'new_student' list with index and value
+for i in range(len(new_student)):  # Loop through the new_student list
+    print(f"i={i}, [{i}]={new_student[i]}")  # Print the index and student name from the new list
