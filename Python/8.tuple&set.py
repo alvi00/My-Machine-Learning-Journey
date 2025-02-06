@@ -47,8 +47,15 @@ print(unique_numbers)  # Output: {1, 2, 4, 5, 6}
 print(2 in unique_numbers)  # Output: True
 
 # Iterate over the set
-for number in unique_numbers:
+for number in range(len(unique_numbers)):
     print(number)
+
+
+#Iterating over a set with 2 step
+
+for number in range(0,len(unique_numbers),2):
+    print(number)
+
 
 # Set operations
 set1 = {1, 2, 3, 4, 5}
