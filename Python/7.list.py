@@ -26,6 +26,10 @@ marks2 = marks.copy()  # Creates a copy of the list
 # marks.clear()  # Uncommenting this would remove all elements from `marks`
 # print(marks)  # Output: []
 
+
+marks.reverse()
+#marks = [1, 2, 3, 4, 5] 
+
 print(marks[0])  # Output: 5
 print(marks[-1])  # Output: 1
 print(marks[2:4])  # Output: [3, 2]
@@ -40,3 +44,6 @@ for i in marks[2:4]:  # Iterate over the list
 for i in range(3):
     for j in range(2):
         print(f"i={i}, j={j}")
+
+for i in range(len(marks)):
+    print(f"i={i},[{i}]={marks[i]}")
