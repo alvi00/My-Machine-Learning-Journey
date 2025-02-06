@@ -41,8 +41,8 @@ marks.pop("math")
 print(marks)  # Output: {'english': 80, 'science': 85, 'history': 75}
 
 # Clear all key-value pairs in the dictionary
-marks.clear()
-print(marks)  # Output: {}
+# marks.clear()
+# print(marks)  # Output: {}
 
 # Iterate over the dictionary and print key-value pairs
 for key in marks:
