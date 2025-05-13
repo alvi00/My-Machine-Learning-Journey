@@ -29,5 +29,6 @@ I’m now coming back, stronger and smarter, and this time I’ve got a **solid 
 
 ```mermaid
 graph TD
-    A[Start: Python Fundamentals] --> B[Data Knowledge (Dk)]
+    A[Python Fundamentals] --> B[Dk]
+    B --> C[Bootstrap]
 ```
