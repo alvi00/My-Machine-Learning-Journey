@@ -102,4 +102,3 @@ greet(name="Alice", age=25)  # Output: Hello, Alice! You are 25 years old.
 
 # Call the function with a mix of positional and keyword arguments
 greet("Alice", age=25)  # Output: Hello, Alice! You are 25 years old.
-
