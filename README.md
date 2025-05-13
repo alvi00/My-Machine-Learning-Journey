@@ -27,6 +27,7 @@ I’m now coming back, stronger and smarter, and this time I’ve got a **solid 
 
 ## 🗺️ Roadmap (in Progress)
 
-mermaid
+```mermaid
 graph TD
-A[Python] --> B[Dk]
+    A[Start: Python Fundamentals] --> B[Data Knowledge (Dk)]
+```
