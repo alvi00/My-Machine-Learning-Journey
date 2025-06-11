@@ -7,3 +7,6 @@ to active the venv
 3. then i had to install django by this pip install django
 
 4. then to start a project i had to write this - django-admin startproject alvi_project .
+
+5. then to start our main project i had to write python manage.py startapp main_project
+
