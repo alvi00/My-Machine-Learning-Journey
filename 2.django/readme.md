@@ -11,3 +11,9 @@ to active the venv
 5. then to start our main project i had to write python manage.py startapp blog_app
 
 6. Had to add blog_app in settings.py
+
+7. if i make any changes in the app's model.py and it should migrate to the whole projet that's why I had to do python manage.py makemigrations
+
+8. then to migrate i had to write python manage.py migrate
+ 
+9. to create a dashboard i had to write python manage.py createsuperuser
