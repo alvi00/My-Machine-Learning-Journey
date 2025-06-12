@@ -17,3 +17,5 @@ to active the venv
 8. then to migrate i had to write python manage.py migrate
  
 9. to create a dashboard i had to write python manage.py createsuperuser
+
+10. to run the server i has to write python manage.py runserver
