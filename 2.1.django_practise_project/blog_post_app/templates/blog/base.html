@@ -6,10 +6,13 @@
     <title>First Django</title>
 </head>
 <body>
-    <h1>Here are the posts</h1>
-    {% for post in posts %}
-    <h1>{{post.title}}</h1>
-    <h1>{{post.content}}</h1>
-    {%endfor%}
+    <nav>
+    <a href="{% url 'home'%}">ALvi post</a>
+    </nav>
+    <main>
+    {%block content%}
+
+    {%endblock%}
+    </main>
 </body>
 </html>
