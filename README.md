@@ -31,4 +31,5 @@ I’m now coming back, stronger and smarter, and this time I’ve got a **solid 
 graph TD
     A[Python Fundamentals] --> B[Dk]
     B --> C[Bootstrap]
+    C --> D[Pandas]
 ```
