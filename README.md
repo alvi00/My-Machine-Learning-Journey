@@ -29,8 +29,7 @@ I’m now coming back, stronger and smarter, and this time I’ve got a **solid 
 
 ```mermaid
 graph TD
-    A[Python Fundamentals] --> B[Dk]
-    B --> C[Bootstrap]
-    C --> D[Pandas]
-    D--> E[Intro to Machine Learning]
+    A[Python Fundamentals] --> B[django]
+    B --> C[Pandas]
+    C --> D[Intro to Machine Learning]
 ```
