@@ -42,3 +42,30 @@ from sklearn.metrics import mean_absolute_error
 
 mean_absolute_error(y,predicted_home_prices)
 
+
+
+# as it is bad to evaluate a model on traning data 
+# we gonna use validation data
+
+from sklearn.model_selection import train_test_split
+
+# split data into training and validation data, for both features and target
+# The split is based on a random number generator. Supplying a numeric value to
+# the random_state argument guarantees we get the same split every time we
+# run this script.
+
+train_X,val_X,train_y,val_Y=train_test_split(X,y,random_state=0)
+
+#define model
+melbourne_model = DecisionTreeRegressor()
+
+#fit model
+
+melbourne_model.fit(train_X, train_y)
+
+# get predicted prices on validation data
+
+
+val_predictions=melbourne_model.predict(val_X)
+
+print(mean_absolute_error(val_Y,val_predictions))
