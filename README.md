@@ -24,6 +24,14 @@ But…
 I’m now coming back, stronger and smarter, and this time I’ve got a **solid plan**. No more random tutorials or half-baked ideas. It’s structure, consistency, and execution from here on out.
 
 ---
+---
+
+## 🚀 Phase 4 — The Real deal
+
+**Restart Date:** 1 october, 2025
+
+I am ready
+---
 
 ## 🗺️ Roadmap (in Progress)
 
