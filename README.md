@@ -32,4 +32,5 @@ graph TD
     A[Python Fundamentals] --> B[Dk]
     B --> C[Bootstrap]
     C --> D[Pandas]
+    D--> E[Intro to Machine Learning]
 ```
