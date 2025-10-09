@@ -57,7 +57,7 @@ from sklearn.model_selection import train_test_split
 train_X,val_X,train_y,val_Y=train_test_split(X,y,random_state=0)
 
 #define model
-melbourne_model = DecisionTreeRegressor()
+melbourne_model = DecisionTreeRegressor(random_state=0)
 
 #fit model
 
@@ -69,3 +69,6 @@ melbourne_model.fit(train_X, train_y)
 val_predictions=melbourne_model.predict(val_X)
 
 print(mean_absolute_error(val_Y,val_predictions))
+
+
+#to check . check between val_predictions and val_y
