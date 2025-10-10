@@ -41,4 +41,5 @@ graph TD
     A[Python Fundamentals] --> B[django]
     B --> C[Pandas]
     C --> D[Intro to Machine Learning]
+    D --> E[Intermediate Machine Learning]
 ```
